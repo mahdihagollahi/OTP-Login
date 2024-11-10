@@ -41,19 +41,21 @@ const OTP = () => {
               setOtp={setOtp}
             />
           </div>
-          <Timer/>
+
           <div
             className={`${
               error
-                ? "xl:mt-56 mt-64 duration-300 mr-20 xl:ml-[28%]"
-                : "xl:mt-[259px] mt-[350px] duration-300 mr-20 xl:ml-[28%]"
+                ? "xl:mt-[174px] mt-56 duration-300 mr-20 xl:ml-[28%]"
+                : "xl:mt-[209px] mt-[250px] duration-300 mr-20 xl:ml-[28%]"
             }`}
           >
+            <div className="  xl:mr-[30%] ml-20 xl:ml-0 ">
+            <Timer />
+            </div>
+          
 
-            
             <button
               onClick={handleSubmit}
-              
               className="whitespace-nowrap flex justify-center text-white font-semibold text-base leading-5 text-center bg-[#000000] py-4 px-36 xl:px-[33%] rounded-xl hover:opacity-85"
             >
               Continue
