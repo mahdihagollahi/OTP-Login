@@ -37,7 +37,9 @@ const Login: React.FC = () => {
             </Link>
           </div>
           <div>
+          <Link href="/">
             <Image src={Star} width={46} height={44} alt="Star Logo" />
+            </Link>
           </div>
         </div>
         <div className="mt-16">
