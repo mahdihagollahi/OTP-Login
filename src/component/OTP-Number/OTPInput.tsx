@@ -40,7 +40,7 @@ const OTPInput: React.FC<OTPInputProps> = ({ error, setError, otp, setOtp }) => 
           }}
           focusStyle={{ border: `2px solid ${error ? 'red' : isLoginSuccessful ? 'green' : '#000000'}`, outline: '#000000' }}
         />
-        {error && <p className="text-red-500 mt-2">Wrong code, please try again</p>}
+        {error && <p className="text-red-500 mt-4">Wrong code, please try again</p>}
      
       </div>
     </Fragment>
