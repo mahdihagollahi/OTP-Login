@@ -54,8 +54,8 @@ const Login: React.FC = () => {
           <div
             className={`${
               error
-                ? "mt-[121.5px] flex justify-between duration-300 items-center"
-                : "mt-40 flex justify-between duration-300 items-center"
+                ? "xl:mt-[23%] xl:mb-2 mb-4 mt-[340px] flex justify-between duration-300 items-center"
+                : "xl:mt-[27%] xl:mb-2 mb-4 mt-96 flex justify-between duration-300 items-center"
             }`}
           >
             <p className="font-normal text-base text-[#000000]">
@@ -72,8 +72,8 @@ const Login: React.FC = () => {
           <div
             className={`${
               error
-                ? "xl:mt-48 mt-60 mr-20 xl:ml-[28%]"
-                : "xl:mt-48 mt-60 mr-20 xl:ml-[28%]"
+                ? " mr-20 xl:ml-[28%]"
+                : " mr-20 xl:ml-[28%]"
             }`}
           >
             <button
