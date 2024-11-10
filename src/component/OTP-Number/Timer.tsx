@@ -2,11 +2,11 @@
 import React, { Fragment, useState, useEffect } from 'react';
 
 const Timer = () => {
-  const [timeLeft, setTimeLeft] = useState(60); 
-  const [isTimerActive, setIsTimerActive] = useState(true);
+  const [timeLeft, setTimeLeft] = useState<number>(60); 
+  const [isTimerActive, setIsTimerActive] = useState<boolean>(true);
 
   useEffect(() => {
-    let timer;
+    let timer: NodeJS.Timeout;
     if (isTimerActive && timeLeft > 0) {
       timer = setInterval(() => {
         setTimeLeft((prevTime) => prevTime - 1);
@@ -22,7 +22,7 @@ const Timer = () => {
     setIsTimerActive(true); 
   };
 
-  const formatTime = (seconds) => {
+  const formatTime =   (seconds: number): string => {
     const minutes = Math.floor(seconds / 60).toString().padStart(2, '0');
     const secs = (seconds % 60).toString().padStart(2, '0');
     return `${minutes}:${secs}`;
