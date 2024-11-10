@@ -1,10 +1,10 @@
-import Landing from '@/component/Landing/Landing'
+import OTP from '@/component/OTP-Number/OTP'
 import React, { Fragment } from 'react'
 
 const page = () => {
   return (
     <Fragment>
-    <Landing/>
+     <OTP/>
     </Fragment>
   )
 }

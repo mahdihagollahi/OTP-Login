@@ -1,10 +1,10 @@
-import Landing from '@/component/Landing/Landing'
+import Login from '@/component/Login/Login'
 import React, { Fragment } from 'react'
 
 const page = () => {
   return (
     <Fragment>
-    <Landing/>
+      <Login/>
     </Fragment>
   )
 }
