@@ -24,7 +24,7 @@ const OTPInput: React.FC<OTPInputProps> = ({ error, setError, otp, setOtp }) => 
 
   return (
     <Fragment>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center sm:justify-center md:justify-center xs:justify-center">
         <OtpInput
           value={otp}
           onChange={handleChange}

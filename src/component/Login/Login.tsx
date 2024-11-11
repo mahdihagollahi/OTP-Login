@@ -74,13 +74,13 @@ const Login: React.FC = () => {
           <div
             className={`${
               error
-                ? " mr-20 xl:ml-[28%]"
-                : " mr-20 xl:ml-[28%]"
+                ? " mr-20 xl:ml-[28%] md:ml-[26.5%] sm:ml-[26.5%] xs:ml-[36.5%]"
+                : " mr-20 xl:ml-[28%] md:ml-[26.5%] sm:ml-[26.5%] xs:ml-[36.5%]"
             }`}
           >
             <button
               onClick={handleSubmit}
-              className="whitespace-nowrap flex justify-center text-white font-semibold text-base leading-5 text-center bg-[#000000] py-4 px-36 xl:px-[33%] rounded-xl hover:opacity-85"
+              className="whitespace-nowrap flex justify-center text-white font-semibold text-base leading-5 text-center bg-[#000000] py-4 px-36 xl:px-[33%] md:px-60  rounded-xl hover:opacity-85"
             >
               Continue
             </button>
