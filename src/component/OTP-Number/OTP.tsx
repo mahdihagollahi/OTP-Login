@@ -51,14 +51,14 @@ const OTP = () => {
                 : "xl:mt-[209px] mt-[250px] duration-300 mr-20 xl:ml-[28%] md:ml-[26.5%] sm:ml-[26.5%] xs:ml-[36.5%]"
             }`}
           >
-            <div className="  xl:mr-[30%] ml-20 xl:ml-0 ">
+            <div className="  xl:mr-[30%] ml-20 sm:-ml-5  md:-ml-40 xl:ml-0 ">
             <Timer />
             </div>
           
 
             <button
               onClick={handleSubmit}
-              className="whitespace-nowrap flex justify-center text-white font-semibold text-base leading-5 text-center bg-[#000000] py-4 px-36 xl:px-[33%] md:px-60 rounded-xl hover:opacity-85"
+              className="whitespace-nowrap flex justify-center md:justify-center sm:justify-center  text-white font-semibold text-base leading-5 text-center bg-[#000000] py-4 px-36 xl:px-[33%] md:px-60 rounded-xl hover:opacity-85"
             >
               Continue
             </button>
