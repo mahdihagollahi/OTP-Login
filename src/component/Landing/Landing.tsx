@@ -20,7 +20,7 @@ const Landing = () => {
           </button>
           </Link>
  
-        <button className="mt-5 whitespace-nowrap text-black font-semibold text-base leading-5 text-center bg-[#ffff] border border-[#747474] py-4 px-[24.5%]  xl:px-[10%] rounded-xl hover:opacity-85 ">
+        <button className="mt-5 whitespace-nowrap text-black font-semibold text-base leading-5 text-center bg-[#ffff] border border-[#747474] py-4 px-[24.5%] 2xl:px-[11.6%] sm:px-[9%]  xl:px-[10%] rounded-xl hover:opacity-85 ">
           Create account
         </button>
       </div>
